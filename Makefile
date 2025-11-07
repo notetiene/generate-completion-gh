@@ -3,9 +3,9 @@
 
 OUTPUT_DIR = .
 BASH_DEBUG_PREFACE ?= "In GitHub cli bash completion setup"
-BASH_OUTPUT_FILENAME ?= bash-completion-setup.bash
+BASH_OUTPUT_FILENAME ?= gh-completion-setup.bash
 ZSH_DEBUG_PREFACE ?= "In GitHub cli zsh completion setup"
-ZSH_OUTPUT_FILENAME ?= zsh-completion-setup.zsh
+ZSH_OUTPUT_FILENAME ?= gh-completion-setup.zsh
 
 .PHONY : all
 all : bash-completion zsh-completion
